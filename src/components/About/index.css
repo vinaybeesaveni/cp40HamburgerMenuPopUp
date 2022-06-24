@@ -1,0 +1,29 @@
+.about-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 70vh;
+}
+.about-sm-img {
+  width: 350px;
+  height: 500px;
+}
+@media screen and (min-width: 992px) {
+  .about-img-container {
+    height: 80vh;
+  }
+}
+.about-lg-img {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .about-sm-img {
+    display: none;
+  }
+  .about-lg-img {
+    display: flex;
+    width: 800px;
+    height: 500px;
+  }
+}

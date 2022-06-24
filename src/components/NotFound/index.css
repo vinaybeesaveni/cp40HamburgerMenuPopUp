@@ -1,0 +1,19 @@
+.not-found-image {
+  width: 300px;
+  height: 400px;
+}
+.not-found-responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+}
+.heading {
+  font-size: 20px;
+  text-align: center;
+}
+.description {
+  font-size: 13px;
+  text-align: center;
+  width: 300px;
+}
